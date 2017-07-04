@@ -1,9 +1,3 @@
-# parkour_pvr
-简单操作的跑酷游戏，与回放比赛，Player Vs. Recording。
-
-
-## 事件
-
 var EVENT = {
     PLAYER: {
         GAME_START: 'GAME_START',
