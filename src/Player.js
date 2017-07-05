@@ -112,7 +112,7 @@ recordController.stopRecord = function () {
 
 var contoller = {};
 controller.startGame = function() {
-    funcCache.startGame.forEach(function(func) {
+    funcCache.gameStart.forEach(function(func) {
         func();
     });
     recordController.startRecord(Player.mechanisimType);

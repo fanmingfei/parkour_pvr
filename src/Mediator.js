@@ -8,6 +8,7 @@ Mediator.emum.type = {
 var isReady = false;
 var isReadyStart = false;
 var readyList = [];
+
 Mediator.ready = function(type) {
     if (readyList.indexOf(type) == -1){
         readyList.push(type);
